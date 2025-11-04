@@ -309,7 +309,7 @@ cd YOLOs-CPP
 Execute the build script to compile the project using CMake:
 
 ```bash
-./build.sh
+./build.sh 1.18.0 1
 ```
 
 This script will download onnxruntime headers, create a build directory, configure the project, and compile the source code. Upon successful completion, the executable files (camera_inference, image_inference, video_inference) will be available in the build directory.
